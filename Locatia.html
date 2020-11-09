@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maior Ionut Alexandru, alexandru.maior@ulbsibiu.ro">
+    <title>Sushi Heaven</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/gif" sizes="16x16">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#top">
+            <h1 class="h1Rest">Sushi Heaven</h1>
+        </a>
+        <a href="Restaurant.html">
+            <h2 class="h2Rest">Restaurant</h2>
+        </a>
+        <a href="Meniu.html">
+            <h2 class="h2Rest"> Meniu</h2>
+        </a>
+        <a href="Comanda.html">
+            <h2 class="h2Rest"> Comanda</h2>
+        </a>
+        <a href="#top">
+            <h2 id="selected" class="h2Rest col">Locatia</h2>
+        </a>
+        <a href="Recenzii.html">
+            <h2 class="h2Rest">Recenzii</h2>
+        </a>
+        <a href="Contact.html">
+            <h2 class="h2Rest"> Contact</h2>
+        </a>
+    </div>
+    <div class="bgLocatia">
+        <h1 class="h1Locatia">Locatiile</h1>
+
+        <div class="locatii">
+            <h2><a href="#sibiu">Sibiu</a></h2>
+            <h2><a href="#valcea">R&#226;mnicu-V&#226;lcea</a></h2>
+            <h2><a href="#cluj">Cluj Napoca</a></h2>
+            <h2><a href="#bacau">Bac&#259;u</a></h2>
+            <h2><a href="#timisoara">Timisoara</a></h2>
+            <h2><a href="#craiova">Craiova</a></h2>
+            <h2><a href="#bucuresti">Bucure&#351;ti</a></h2>
+        </div>
+
+
+        <table class="tabelOrar" border="3">
+            <thead>
+                <caption style="font-size: 20px;">Orar si locatii:</caption>
+                <tr>
+                    <td class="Orar" colspan="7">
+                        Orar
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ziOrar">Luni</td>
+                    <td class="ziOrar">Marti</td>
+                    <td class="ziOrar">Miercuri</td>
+                    <td class="ziOrar">Joi</td>
+                    <td class="ziOrar">Vineri</td>
+                    <td class="ziOrar">Sambata</td>
+                    <td class="ziOrar">Duminica</td>
+                </tr>
+                <tr>
+                    <td class="ziOrarOra">8 - 18</td>
+                    <td class="ziOrarOra">8 - 18</td>
+                    <td class="ziOrarOra">8 - 18</td>
+                    <td class="ziOrarOra">8 - 18</td>
+                    <td class="ziOrarOra">8 - 18</td>
+                    <td class="ziOrarOra">8 - 14</td>
+                    <td class="ziOrarOra magInchis">Inchis</td>
+                </tr>
+                <tr>
+                    <td colspan="7" style="color: red; padding: 20px;">Inchis de sarbatorile legale</td>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- ************************  SIBIU ***********************************-->
+                <tr height="40" id="sibiu"></tr>
+                <tr>
+                    <td colspan="7" class="trTitluLoc">
+                        <h2 class="locatieSibiu">Sibiu</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ziOrar" colspan="7">Adresa: Strada Lunga, nr. 42 </td>
+                </tr>
+
+                <tr>
+                    <td class="harta" colspan="7">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2478.410215881007!2d24.148593542256396!3d45.79280146728481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474c679028002e9f%3A0xfe40771ca3ace55b!2sStrada%20Nicolae%20B%C4%83lcescu%2042%2C%20Sibiu%20557260!5e0!3m2!1sen!2sro!4v1604101070753!5m2!1sen!2sro"
+                            width="750" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0">
+                        </iframe>
+                    </td>
+                </tr>
+
+                <!-- ************************  RM VALCEA ***********************************-->
+                <tr height="40" id="valcea"></tr>
+                <tr>
+                    <td colspan="7" class="trTitluLoc">
+                        <h2 class="locatieSibiu">R&#226;mnicu-V&#226;lcea</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ziOrar" colspan="7">Adresa:Bulevardul Tudor Vladimirescu, nr. 1 </td>
+                </tr>
+
+                <tr>
+                    <td class="harta" colspan="7">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d704.012954441058!2d24.36347412927793!3d45.10501759869365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474d38afc37e9863%3A0x890a28c838e2e7fa!2sBulevardul%20Tudor%20Vladimirescu%201%2C%20R%C3%A2mnicu%20V%C3%A2lcea%20240168!5e0!3m2!1sen!2sro!4v1604108991164!5m2!1sen!2sro"
+                            width="750" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0">
+                        </iframe>
+                    </td>
+                </tr>
+
+                <!-- ************************  Cluj Napoca ***********************************-->
+                <tr height="40" id="cluj"></tr>
+                <tr>
+                    <td colspan="7" class="trTitluLoc">
+                        <h2 class="locatieSibiu">Cluj Napoca</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ziOrar" colspan="7">Adresa: Piata Unirii, nr. 16 </td>
+                </tr>
+
+                <tr>
+                    <td class="harta" colspan="7">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2232.5463425881485!2d23.586923210178796!3d46.769700999167306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e9d3fede7d3%3A0x83549f9f865ff3b!2sPia%C8%9Ba%20Unirii%2016%2C%20Cluj-Napoca%20400000!5e0!3m2!1sen!2sro!4v1604108094860!5m2!1sen!2sro"
+                            width="750" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </td>
+                </tr>
+
+                <!-- ************************  Bacau ***********************************-->
+                <tr height="40" id="bacau"></tr>
+                <tr>
+                    <td colspan="7" class="trTitluLoc">
+                        <h2 class="locatieSibiu">Bac&#259;u</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ziOrar" colspan="7">Adresa: Strada Pietii, nr. 10 </td>
+                </tr>
+
+                <tr>
+                    <td class="harta" colspan="7">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1371.4763270085248!2d26.912781124751238!3d46.56840159825887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b5702139d88357%3A0x5f44569d566d445c!2zU3RyYWRhIFBpZcibaWkgMTAsIEJhY8SDdQ!5e0!3m2!1sen!2sro!4v1604108210068!5m2!1sen!2sro"
+                            width="750" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0">
+                        </iframe>
+                    </td>
+                </tr>
+
+                <!-- ************************  Timisoara ***********************************-->
+                <tr height="40" id="timisoara"></tr>
+                <tr>
+                    <td colspan="7" class="trTitluLoc">
+                        <h2 class="locatieSibiu">Timisoara</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ziOrar" colspan="7">Adresa: Piata Unirii, nr. 1 </td>
+                </tr>
+
+                <tr>
+                    <td class="harta" colspan="7">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1276.3271596666877!2d21.22895595954249!3d45.757373810698724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47456781d306b8d5%3A0x6ac8d42191bd3655!2zUGlhyJthIFVuaXJpaSAxLCBUaW1pyJlvYXJh!5e0!3m2!1sen!2sro!4v1604108348524!5m2!1sen!2sro"
+                            width="750" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0">
+                        </iframe>
+                    </td>
+                </tr>
+
+                <!-- ************************  Craiova ***********************************-->
+                <tr height="40" id="craiova"></tr>
+                <tr>
+                    <td colspan="7" class="trTitluLoc">
+                        <h2 class="locatieSibiu">Craiova</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ziOrar" colspan="7">Adresa: Strada Lipscani, nr. 10 </td>
+                </tr>
+
+                <tr>
+                    <td class="harta" colspan="7">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d713.6709297319684!2d23.796276529276998!3d44.316452198693995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d79f67dbec79%3A0x423dd2d962241f0a!2sStrada%20Lipscani%2010%2C%20Craiova%20200731!5e0!3m2!1sen!2sro!4v1604108575323!5m2!1sen!2sro"
+                            width="750" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0">
+                        </iframe>
+                    </td>
+                </tr>
+
+                <!-- ************************  Bucuresti ***********************************-->
+                <tr height="40" id="bucuresti"></tr>
+                <tr>
+                    <td colspan="7" class="trTitluLoc">
+                        <h2 class="locatieSibiu">Bucure&#351;ti</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ziOrar" colspan="7">Adresa: Strada Academiei, nr. 3 </td>
+                </tr>
+
+                <tr>
+                    <td class="harta" colspan="7">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d712.2370496490606!2d26.099001429277124!3d44.43422479869388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff40c7a05e13%3A0x510bd4bd66afa1fc!2sStrada%20Academiei%203%2C%20Bucure%C8%99ti%20030167!5e0!3m2!1sen!2sro!4v1604108754123!5m2!1sen!2sro"
+                            width="750" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0">
+                        </iframe>
+                    </td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+        <br>
+        <br>
+        <br>
+        <div class="marquee">
+            <marquee>foloseste codul <q>PROIECTWEB</q> pentru o reducere de 30% la prima comanda</marquee>
+        </div>
+        <div class="footerRest">
+            <a href="index.html">INDEX</a>
+            <a href="PaginaPrincipala.html">Pagina Principala</a>
+        </div>
+    </div>
+
+
+
+    <div>
+        <button id="up" onclick="topFunction()" class="upArrow">
+        </button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

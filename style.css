@@ -1,0 +1,515 @@
+
+
+.navbar #selected{
+    background: linear-gradient(to right, #30303000 5%, rgb(202, 49, 49) 50%, #30303000 95%);
+}
+
+.col{
+    color: white;
+}
+
+/*******************************************************************************************************************
+                                                        Pagina Principala
+********************************************************************************************************************/
+
+.stil{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.bg {
+    background-image: url("imagini/pozaMancare2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.h1PP {
+    background: linear-gradient(to right, #30303000 15%, rgb(255, 52, 52) 50%, #30303000 85%);
+    color: rgb(199, 199, 199);
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+.h2PP a {
+    color: white;
+    text-decoration: none;
+}
+
+.h2PP {
+    text-align: center;
+    margin-top: 20px;
+    background: linear-gradient(to right, #30303000 25%, rgb(0, 0, 0) 50%, #30303000 75%);
+    padding: 10px;
+    
+}
+
+@keyframes example {
+    0% {
+        color: rgb(255, 255, 255);
+        
+    }
+
+    50% {
+        color: rgb(143, 0, 0);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+        
+    }
+}
+
+.h2PP a {
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+    font-size: 30px;
+    text-shadow: 0px 1px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.555);
+    letter-spacing: 3px;    
+}
+
+
+/*******************************************************************************************************************
+                                                            Restaurant
+********************************************************************************************************************/
+
+.upArrow{
+    background-image: url("upcopy.png");
+    background-size: cover;
+    display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 0px;
+    border: none;
+	outline: none;
+	background-color: rgb(255, 255, 255);
+	cursor: pointer;
+	padding: 10px;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+
+.upArrow:hover{
+    background-color:  rgb(255, 0, 0);
+	padding: 10px;
+    border-radius: 10px;
+  }
+
+  
+
+
+.marquee{
+padding: 0px 0px;
+margin-top: 14px;
+background-color: #a70000;
+color: white;
+width: 50%;
+margin: auto;
+}
+
+.navbar{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #a70000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.divBgRest{
+    background-color: #d6d6d6;
+}
+
+.divBgImg{
+  background-image: url("imagini/sushiMenu1.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.divBgImg2{
+  background-image: url("imagini/sushiTable.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h1Rest, .h2Rest{
+  margin: 0;
+  top: 0;
+}
+.h1Rest{
+    font-size: 30px;
+}
+
+.h2Rest{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+.navbar a{
+    text-decoration: none;
+    transition: 0.3s;
+    color: black;
+}
+
+.navbar a:hover{
+    color: white;
+    
+}
+
+
+.textDescriere{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.textDescriere1{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.textDescriereTitlu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.textDescriere::first-letter {
+    font-size: 200%;
+    color: #000000;
+}
+
+.galerieImgRest{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(167, 0, 0);
+}
+
+.imag4, .imag5, .imag6, .imag7{
+    padding-top: 20px;
+    width: 45%;
+    padding-bottom: 20px;
+}
+.imag10, .imag11{
+
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+.footerRest {
+    text-align: center;
+    background-color: #a70000;
+    padding: 10px;
+}
+
+.footerRest a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+}
+
+
+.imgChop{
+    width: 3%;
+    vertical-align: middle;
+}
+
+
+/*******************************************************************************************************************
+                                                            Meniu
+********************************************************************************************************************/
+.bodyColorMeniu{
+    background-color: rgb(218, 218, 218);
+}
+
+.titluMeniu{
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: 7px;
+}
+
+.tabelMeniu{
+    border-bottom: 2px solid black;
+    width: 80%;
+    text-align: center;
+    margin:auto;
+}
+
+.tabelHead th{
+    border-bottom: 2px solid #000000;
+    font-size: 20px;
+}
+
+.tabelMeniu tr td:nth-child(1){
+    background-color: rgb(202, 202, 202);
+}
+
+.tabelMeniu img{
+    width: 140px;
+}
+
+.tabelMeniu td{
+    border-bottom: 3px solid #9c0000;
+    font-size: 25px;
+    width: 20%;
+    transition: 0.2s;
+}
+
+.listaCuImagine li{
+    text-align: justify;
+    padding: 0px 35px;
+    list-style-image: url("imagini/fish.png");
+}
+
+/*******************************************************************************************************************
+                                                            Comanda
+********************************************************************************************************************/
+
+.bgColorComanda{
+    background-color: rgb(224, 224, 224);
+}
+
+.bgComanda{
+    background-image: url("imagini/wood.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h1Comanda{
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(204, 204, 204);
+    letter-spacing: 4px;
+}
+
+.fontComanda{
+    font-size: 20px;
+}
+
+#adresa{
+    width: 400px;
+}
+
+.formularComanda{
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    background-color: #868686;
+    border-radius: 50px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.formularComanda form input{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.cantitateComanda{
+    width: 40px;
+    font-size: 20px;
+}
+
+.produse, .livrareComanda{ 
+    display: flex; 
+    justify-content: space-around;
+}
+
+.produse{
+    text-align: right;
+}
+
+.submitComanda{
+   font-size: 20px;
+   border-radius: 20%;
+   font-weight: bold;
+   transition: 0.3s;
+   padding: 10px 40px;
+}
+
+.submitComanda:hover{
+    box-shadow: 0px 3px 7px #000000;
+    cursor: pointer;
+    
+}
+
+.resetFormular{
+    text-align: right;
+}
+.resetFormular input{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.resetFormular input:hover{
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 5px rgb(0, 0, 0);
+}
+
+.codreducere{
+    font-size: 20px;
+}
+
+
+.size{
+    width: 100%;
+}
+
+
+
+/*******************************************************************************************************************
+                                                            Locatia
+********************************************************************************************************************/
+
+
+.bgLocatia{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b4b4b4;
+}
+
+
+.h1Locatia{
+    padding-top: 50px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.locatii{
+    width: 100%;
+    text-align: center;
+}
+
+.locatii h2{
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.bgLocatia thead{
+    background-color: rgb(255, 255, 255);
+}
+
+.bgLocatia table{
+    text-align: center;
+    margin: auto;
+}
+.Orar{
+    padding: 20px 10px;
+    width: 100px;
+    font-size: 20px;
+}
+
+.ziOrar{
+    padding: 20px 10px;
+    width: 100px;
+}
+
+.harta{
+    background-color: rgb(88, 88, 88);
+}
+
+.ziOrarOra{
+    padding: 30px 15px;
+    width: 100px;
+}
+
+.magInchis{
+    background-color: rgb(255, 42, 42);
+    color: white;
+}
+
+.trTitluLoc{
+    background-color: rgb(204, 204, 204);
+}
+
+
+/*******************************************************************************************************************
+                                                            Recenzii
+********************************************************************************************************************/
+
+.bgRecenzii {
+    background-image: url("imagini/fundalRecenzii.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footerRecenzii{
+    
+    bottom: 0;
+    width: 100%;
+}
+
+.divRecenzii{
+    width:100%;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.divRecenzii h1{
+    color: rgb(177, 177, 177);
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.recenzie1{
+    margin: auto;
+    width: 50%;   
+    padding: 20px 0px;
+    color: rgb(199, 199, 199);
+    background-color: rgba(59, 59, 59, 0.61);
+    border: 1px solid #ff2600;
+    box-shadow: 0px 5px 5px 0px #ff2600;
+    border-radius: 10px;
+}
+
+
+.recenzieP{
+    font-size: 20px;
+    padding: 0px 40px;
+    font-family: sans-serif;
+}
+

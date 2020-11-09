@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maior Ionut Alexandru, alexandru.maior@ulbsibiu.ro">
+    <title>Sushi Heaven</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/gif" sizes="16x16">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body background="url">
+    <div class="navbar">
+        <a href="#top">
+            <h1 class="h1Rest">Sushi Heaven</h1>
+        </a>
+        <a href="Restaurant.html">
+            <h2 class="h2Rest">Restaurant</h2>
+        </a>
+        <a href="Meniu.html">
+            <h2 class="h2Rest"> Meniu</h2>
+        </a>
+        <a href="#top">
+            <h2 id="selected" class="h2Rest col"> Comanda</h2>
+        </a>
+        <a href="Locatia.html">
+            <h2 class="h2Rest">Locatia</h2>
+        </a>
+        <a href="Recenzii.html">
+            <h2 class="h2Rest">Recenzii</h2>
+        </a>
+        <a href="Contact.html">
+            <h2 class="h2Rest"> Contact</h2>
+        </a>
+    </div>
+    <div class="bgComanda">
+        <h1 class="h1Comanda">Detalii Comand&#259;;</h1>
+        <div class="formularComanda">
+            <form action="" method="POST">
+                <br>
+                <label class="fontComanda" for="prenume"><b>Prenume</b></label><br>
+                <input class="fontComanda" placeholder="Ion" type="text" id="prenume" name="prenume" value=""><br>
+                <br>
+                <label class="fontComanda" for="nume"><b>Nume</b></label><br>
+                <input class="fontComanda" placeholder="Ionescu" type="text" id="nume" name="nume" value=""><br>
+                <br>
+                <label class="fontComanda" for="telefon"><b>Telefon</b></label><br>
+                <input class="fontComanda" placeholder="0712345678" type="tel" id="telefon" name="telefon" value=""><br>
+                <br>
+                <label class="fontComanda" for="adresa"><b>Adresa</b></label><br>
+                <input class="fontComanda" placeholder="Strada Libertatii Nr.2 Sc.B Ap.18" type="text" id="adresa"
+                    name="adresa" value=""><br>
+                <br>
+                <br>
+                <hr color="#a70000" size="3px" width="70%">
+                <hr>
+                <h2>Alege&#355;i Produsele dorite</h2>
+                <br>
+                <div class="produse">
+                    <div class="primele5Prod">
+                        <label class="fontComanda" for=""><b>Salmon Nigiri</b>
+                            <input type="checkbox">
+                            <input class="cantitateComanda" min="0" type="number" value="0">
+                        </label><br>
+                        <br>
+                        <label class="fontComanda" for=""><b>Avocado Nigiri</b>
+                            <input type="checkbox">
+                            <input class="cantitateComanda" min="0" type="number" value="0">
+                        </label><br>
+                        <br>
+                        <label class="fontComanda" for=""><b>Tamago Nigiri</b>
+                            <input type="checkbox">
+                            <input class="cantitateComanda" min="0" type="number" value="0">
+                        </label><br>
+                        <br>
+                        <label class="fontComanda" for=""><b>Octopus Nigiri</b>
+                            <input type="checkbox">
+                            <input class="cantitateComanda" min="0" type="number" value="0">
+                        </label><br>
+                        <br>
+                        <label class="fontComanda" for=""><b>Butterfish Nigiri</b>
+                            <input type="checkbox">
+                            <input class="cantitateComanda" min="0" type="number" value="0">
+                        </label><br>
+                        <br>
+                        <label class="fontComanda" for=""><b>Seabass Nigiri</b>
+                            <input type="checkbox">
+                            <input class="cantitateComanda" min="0" type="number" value="0">
+                        </label>
+                    </div>
+                    <div class="primele5Prod2">
+                        <label class="fontComanda" for=""><b>Tuna Nigiri</b>
+                            <input type="checkbox">
+                            <input class="cantitateComanda" min="0" type="number" value="0">
+                        </label><br>
+                        <br>
+                        <label class="fontComanda" for=""><b>Shrimp Nigiri</b>
+                            <input type="checkbox">
+                            <input class="cantitateComanda" min="0" type="number" value="0">
+                        </label><br>
+                        <br>
+                        <label class="fontComanda" for=""><b><strike>Eel Nigiri</strike></b>
+                            <input type="checkbox" disabled>
+                            <input class="cantitateComanda" disabled min="0" type="number" value="0">
+                        </label><br>
+                        <br>
+                        <label class="fontComanda" for=""><b>Salmon Truffle Gunkan</b>
+                            <input type="checkbox">
+                            <input class="cantitateComanda" min="0" type="number" value="0">
+                        </label><br>
+                        <br>
+                        <label class="fontComanda" for=""><b>Spicy Tuna Gunkan</b>
+                            <input type="checkbox">
+                            <input class="cantitateComanda" min="0" type="number" value="0">
+                        </label><br>
+                        <br>
+                        <label class="fontComanda" for=""><b>Sunrise Gunkan</b>
+                            <input type="checkbox">
+                            <input class="cantitateComanda" min="0" type="number" value="0">
+                        </label><br>
+                        <br>
+                        <a class="" href="Meniu.docx">Descarca Meniul</a>
+                    </div>
+                </div>
+                <hr color="#a70000" size="10px">
+                <h2>Livrare<sup>*</sup></h2>
+                <div class="livrareComanda">
+                    <div>
+                        <label class="fontComanda">Modalitate de livrare:</label><br>
+                        <br>
+                        <select class="fontComanda" id="livrare" name="livrare">
+                            <option value="personal">Le ridic personal</option>
+                            <option value="taxi">Cu Taxi</option>
+                            <option value="gratis">Livrare Gratuita</option>
+                            <option value="locatie">Comanda in Restaurant</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="fontComanda">Ambalaj:</label><br>
+                        <br>
+                        <select class="fontComanda" id="ambalaj" name="ambalaj">
+                            <option value="hartie">Hartie</option>
+                            <option value="ecoplastic">Plastic Eco</option>
+                            <option value="plastic">Plastic</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <hr color="#a70000" size="10px">
+                <h2>Plata</h2>
+
+                <label class="fontComanda"> Modalit&#259;&#355;i de efectuare a pla&#355;ii:</label><br><br>
+                <label class="fontComanda"><input type="radio" name="plata">Card
+                    online</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label class="fontComanda"><input type="radio" name="plata">Card livrare
+                </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label class="fontComanda"><input type="radio" name="plata">Cash
+                    livrare</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label class="fontComanda"><input type="radio" name="plata">La ridicare comand&#259; </label>
+                <br>
+                <br>
+                <h2>Pentru card online:</h2>
+                <input class="fontComanda" type="text" placeholder="prenume">&nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="fontComanda" type="text" placeholder="nume"><br>
+                <br>
+                <input class="fontComanda" type="text" placeholder="numar card">&nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="fontComanda" type="text" placeholder="cod de securitate"><br>
+                <br>
+                <label class="fontComanda" for="">Luna si Anul expirarii:</label><input type="month">
+                <br>
+                <br>
+                <br>
+                <hr color="#a70000" size="10px">
+                <br>
+                <h2>Alte Men&#355;iuni</h2>
+                <br>
+                <textarea name="" id="" cols="70" rows="10"></textarea>
+                <br>
+                <br>
+                <br>
+                <input type="text" class="codreducere" placeholder="cod reducere">
+                <div class="resetFormular">
+                    <input type="reset" value="Resetare Formular">
+                </div>
+                <hr color="#a70000" size="10px">
+                <br>
+                <br>
+
+                <input class="submitComanda" type="submit" value="Comand&#259;">
+                <br>
+                <br>
+                <br>
+                <br>
+                <p> <sub>*</sub><small>livrarea se face doar in anumite zone a orasului</small></p>
+                <p> <sub>*</sub><big>costul transportului difera in functie de zona unde este livrata comanda</big>
+                </p>
+            </form>
+            <div class="marquee size">
+                <marquee>foloseste codul <q>PROIECTWEB</q> pentru o reducere de 30% la prima comanda</marquee>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+    <div class="footerRest">
+        <a href="index.html">INDEX</a>
+        <a href="PaginaPrincipala.html">Pagina Principala</a>
+    </div>
+
+
+    <div>
+        <button id="up" onclick="topFunction()" class="upArrow">
+        </button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
